@@ -24,6 +24,7 @@ TODO:
     * Code reviews last 30-50 minutes
     * For many people, reading code is new and hard
     * An easy bit of broken-code to write is an ArrayList in Java with a memory leak, or a LinkedList that doesn't handle its tail pointer correctly.
+    * Common problems include null errors, and in Java, .equals() vs. ==
   - Rank by difficulty and class pre-reqs (ECS 40, 60, 122A)
   - Question classes
     * OOP
