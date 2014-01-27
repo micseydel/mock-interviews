@@ -7,6 +7,7 @@ Notes:
   - People should write *real code* and not pseudo-code. If their code sucks, they need feedback. (Nice, polite feedback of course.)
   - "I don't know" is not the end of the world! Especially not in mocks. Give as few hints as possible but definitely hint to move them forward.
   - Questions should be limited to 20-50 minutes depending on the question and interviewee. If they cannot solve it, then need to study the topic more or use easier questions.
+  - They shouldn't need to look anything up for any question.
 
 TODO:
   - Collection of interview questions to be sourced from:
@@ -19,6 +20,10 @@ TODO:
     * http://www.glassdoor.com/index.htm
     * Cracking the coding interview
   - Code review for C, C++, Java, Python (with errors ranked by importance)
+    * All code should compile
+    * Code reviews last 30-50 minutes
+    * For many people, reading code is new and hard
+    * An easy bit of broken-code to write is an ArrayList in Java with a memory leak, or a LinkedList that doesn't handle its tail pointer correctly.
   - Rank by difficulty and class pre-reqs (ECS 40, 60, 122A)
   - Question classes
     * OOP
@@ -70,6 +75,7 @@ Questions:
   - Have you ever lead a team? How big?
     * Ask what each member did. How the interviewee helped them, who didn't need help. Challenges to leadership.
     * If it turns out they don't know who did what, or they claimed to lead a team that was large but when probed say "so and so didn't really do anything" question whether they should consider them part of the team they lead.
+  - Interviewer should pick some product of a big company, e.g. Amazon, Facebook, Google, LinkedIn, and discuss implementation of that product. What would it take to replicate it and produce a version 1.0? What would be in the 2.0?
   - I (Michael) should try to remember my Factset phone screen question(s).
 
 How to succeed:
