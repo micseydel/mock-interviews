@@ -25,12 +25,12 @@ TODO:
       | inheritance vs composition
       | polymorphism
       | encapsulation
-    * data structures
+    * Data Structures
       | trees
       | graphs
       | sets
       | maps
-    * algorithms
+    * Algorithms
       | recursion
       | dynamic programming
 
