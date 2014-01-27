@@ -37,6 +37,7 @@ TODO:
 What not to do
   - Use a language you don't know.
     * For example, if you wish to use Python, is slicing a constant or O(n) operation? Does it depend on what is being sliced? If you're not *sure* of the answers to these questions, you shouldn't be using Python in an interview.
+
 Do do
   - Focus on scale (big-O).
   - Name big-Os on all operations, on both time and space!
