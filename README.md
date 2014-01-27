@@ -15,17 +15,17 @@ TODO:
   - Rank by difficulty
   - Rquestion classes
     * OOP
-      ^ inheritance vs composition
-      ^ polymorphism
-      ^ encapsulation
+      | inheritance vs composition
+      | polymorphism
+      | encapsulation
     * data structures
-      ^ trees
-      ^ graphs
-      ^ sets
-      ^ maps
+      | trees
+      | graphs
+      | sets
+      | maps
     * algorithms
-      ^ recursion
-      ^ dynamic programming
+      | recursion
+      | dynamic programming
 
 What not to do
   - Use a language you don't know.
