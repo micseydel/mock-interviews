@@ -77,6 +77,8 @@ Questions:
     * Ask what each member did. How the interviewee helped them, who didn't need help. Challenges to leadership.
     * If it turns out they don't know who did what, or they claimed to lead a team that was large but when probed say "so and so didn't really do anything" question whether they should consider them part of the team they lead.
   - Interviewer should pick some product of a big company, e.g. Amazon, Facebook, Google, LinkedIn, and discuss implementation of that product. What would it take to replicate it and produce a version 1.0? What would be in the 2.0?
+  - Design and implement a Map which respects the order in which items are added.
+    * One solution involves internally using a HashMap and a DoublyLinkedList.
   - I (Michael) should try to remember my Factset phone screen question(s).
 
 How to succeed:
