@@ -4,21 +4,25 @@ Mock Interview Prep Material
 Notes:
   - Do not attribute a question to a specific company.
   - If a code review is related to a question, try not to give it to someone who has done one or the other.
-  - People should write *real code* and not pseudo-code. If their code sucks, they need feedback. (Nice, polite feedback of course.)
-  - "I don't know" is not the end of the world! Especially not in mocks. Give as few hints as possible but definitely hint to move them forward.
+  - People should write *real code* and not pseudo-code. If their code is lacking, they need feedback. (Nice, polite feedback of course.)
+    - Flip side, upon joining a company, be prepared for your co-workers or managers to constructively let you know you did not approach a problem correctly.  So try to get used to it.
+  - "I don't know" is not the end of the world!! Especially not in mocks. Give as few hints as possible but definitely hint to move them forward.
   - Questions should be limited to 20-50 minutes depending on the question and interviewee. If they cannot solve it, then need to study the topic more or use easier questions.
   - They shouldn't need to look anything up for any question.
 
 TODO:
   - Collection of interview questions to be sourced from:
-    * http://projecteuler.net/
-    * http://codeeval.com/
-    * rapleaf (or liveramp) challenge questions (e.g. "array absurdity")
-    * facebook challenges
-    * https://www.hackerrank.com/
-    * http://poj.org/
-    * http://www.glassdoor.com/index.htm
-    * Cracking the coding interview
+    - Books:   
+      * Cracking the coding interview (you can google the 4th edition pdf, tons of great questions.)
+    - Websites:  
+      * http://projecteuler.net/  (just the first 15 questions or so.)
+      * http://codeeval.com/
+      * rapleaf (or liveramp) challenge questions (e.g. "array absurdity")
+      * facebook challenges
+      * https://www.hackerrank.com/
+      * http://poj.org/
+      * http://www.glassdoor.com/index.htm
+
   - Code review for C, C++, Java, Python (with errors ranked by importance)
     * All code should compile
     * Code reviews last 30-50 minutes
@@ -33,11 +37,22 @@ TODO:
       | encapsulation
     * Data Structures
       | trees
+        | binary
+          | searching
+        | balance
       | graphs
+        | BFS
+        | DFS
+        | A*
       | sets
-      | maps
+      | maps (aka hashtables)
+        | sizing
+        | hash function
+        | runtime (hint: O(1))
     * Algorithms
       | recursion
+        | recursion
+          |recursion
       | dynamic programming
 
 What not to do
@@ -47,7 +62,7 @@ What not to do
 Do do
   - Focus on scale (big-O).
   - Name big-Os on all operations, on both time and space!
-  - Recursion is always at least O(log n) space! (unless tail recursive).
+  - Recursion is almost always at least O(log n) space! (unless tail recursive).
 
 Questions:
   - (Open form) You are downloading two files. One reports it will be completed in 4 minutes, the other in 8. When will both be done? The interviewee should ask questions about everything, trying to make as few assumptions as possible.
@@ -84,5 +99,7 @@ Questions:
 How to succeed:
   - Make the interviewer personally want you on their team.
   - Be nice!
+  - Think outloud as much as possible.
+  - If you think of a "dumb, easy" way to do something, state that outloud, and then say why you'd choose not to do it that way.  This shows that you're thoughtful.
   - Enthusiasm is a good thing.
   - For loops over while -- http://nedbatchelder.com/text/iter.html
