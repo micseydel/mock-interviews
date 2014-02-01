@@ -22,9 +22,7 @@ public:
         {
             Object *temp = new Object[capacity *= 2];
             for (int i = 0; i < size; i++)
-            {
                 temp[i] = array[i];
-            }
             array = temp;
         }
 
@@ -39,9 +37,7 @@ public:
             {
                 size--;
                 for (int j = i; j < size; j++)
-                {
                     array[j] = array[j + 1];
-                }
                 return true;
             }
         }
@@ -52,9 +48,7 @@ public:
     Object get(int index)
     {
         if (index < size)
-        {
             return array[index];
-        }
         return NULL;
     }
 
