@@ -1,0 +1,14 @@
+Python binary_search:
+  * Slicing makes the algorith O(n), defeating the purpose of binary search.
+
+Java list implementation:
+  * Remove doesn't check for null on line 38.
+  * The for loop on line 41 does not prevent a memory leak.
+  * get() should throw an exception instead of return null when out of bounds. Should also check for negative.
+    - Big reason to throw an exception is because otherwise you cannot reliably store null in this List because if you did, you might think you were getting it back when you are really out of bounds.
+
+C++ list implementation:
+  * add() has a memory leak, needs to delete the old array.
+  * On line 38, remove() should check for NULL.
+  * get() should throw an exception instead of return NULL, for same reasons as in Java above. Should also check for negative.
+  * Specs indicate that that our Object object will be subclassed. However, this is not storing pointers, instead a fixed-size Object is allocated for space. If a String or Integer were inserted, it would be truncated. If it were copied, it would still be quite memory inefficient.

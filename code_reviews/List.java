@@ -51,7 +51,11 @@ class List
 
     public Object get(int index)
     {
-        return array[index];
+        if (index < mySize)
+        {
+            return array[index];
+        }
+        return null;
     }
 
     public int size()
