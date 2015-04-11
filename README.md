@@ -8,14 +8,14 @@ Notes:
     - Flip side, upon joining a company, be prepared for your co-workers or managers to constructively let you know you did not approach a problem correctly.  So try to get used to it.
   - "I don't know" is not the end of the world!! Especially not in mocks. Give as few hints as possible but definitely hint to move them forward.
   - Questions should be limited to 20-50 minutes depending on the question and interviewee. If they cannot solve it, then need to study the topic more or use easier questions.
-  - They shouldn't need to look anything up for any question.
+  - They shouldn't need to look anything up for any question. If there are things they would Google, they should ask the interviewer who will answer at their discression.
 
 TODO:
   - Collection of interview questions to be sourced from:
     - Books:   
       * Cracking the coding interview (you can google the 4th edition pdf, tons of great questions.)
     - Websites:  
-      * http://projecteuler.net/  (just the first 15 questions or so.)
+      * http://projecteuler.net/ (not all of them, but all the more reason to source well)
       * http://codeeval.com/
       * rapleaf (or liveramp) challenge questions (e.g. "array absurdity")
       * facebook challenges
