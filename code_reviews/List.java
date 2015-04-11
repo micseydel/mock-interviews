@@ -28,7 +28,7 @@ class List {
         for (int i = 0; i < mySize; i++) {
             if (array[i].equals(o)) {
                 mySize--;
-                for (int j = i; i < mySize; i++)
+                for (int j = i; j < mySize; j++)
                     array[j] = array[j + 1];
                 return true;
             }
