@@ -1,6 +1,6 @@
 Instructions:
   * Each question has a time limit and one or more problems. Mock candidates should be notified of the time limits, and there are upper bounds here; do not exceed them, though feel free to give less time.
-  * Instruct candidates that there are one or more problems.
+  * Instruct candidates that there are one or more problems. These problems are semantic, and these classes may even appear to work to an unwitting user. There are no syntax errors or other issues a compiler would catch for you.
   * Debrief afterward. Do note that the List question isn't very reusable. Once you've done this code review, you should seek something entirely different for more experience.
 
 Python binary_search (<10 minutes):
