@@ -1,3 +1,8 @@
+Instructions:
+  * Each question has a time limit and one or more problems. Mock candidates should be notified of the time limits, and there are upper bounds here; do not exceed them, though feel free to give less time.
+  * Instruct candidates that there are one or more problems.
+  * Debrief afterward. Do note that the List question isn't very reusable. Once you've done this code review, you should seek something entirely different for more experience.
+
 Python binary_search (<10 minutes):
   * Slicing makes the algorith O(n), defeating the purpose of binary search.
 
