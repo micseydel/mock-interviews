@@ -29,9 +29,10 @@ class List {
      */
     public boolean remove(Object o) {
         for (int i = 0; i < mySize; i++) {
-            if (array[i].equals(o)) {
+            if (array[i].equals(o)) { // can cause a NullPointerException
                 mySize--;
                 for (int j = i; j < mySize; j++)
+                    // leaves a dangling reference, this is a memory leak
                     array[j] = array[j + 1];
                 return true;
             }
@@ -40,6 +41,10 @@ class List {
         return false;
     }
 
+    // can cause an out of bounds exception when negative is passed
+    // because null is returned, can't tell if too big of index was used
+    //   null would be more ok if were also returned for negative indexes
+    //   but exceptions are still better
     public Object get(int index) {
         if (index < mySize)
             return array[index];
@@ -47,6 +52,6 @@ class List {
     }
 
     public int size() {
-        return array.length;
+        return array.length; // should be returning mySize
     }
 }

@@ -1,5 +1,4 @@
 class Object {
 public:
-	bool equals(Object);
-	int getHash();
+	virtual bool equals(Object);
 };

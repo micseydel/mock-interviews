@@ -1,0 +1,25 @@
+# "list" is a built-in, should not use that name
+def binary_search(list, item):
+    mid = len(list) / 2
+    if len(list) == 0:
+        return False
+    if len(list) == 1:
+        return list[0] == item
+    if list[mid] == item:
+        return True
+
+    mid_item = list[mid]
+
+    # slicing here is a linear operation, making
+    #   this function no better than
+    #   return item in list
+    #   it's actuall worse, given the extra memory
+    #   used to recurse and slice
+    if item < mid_item:
+        # python's slice excludes the higher value,
+        #   so this is ok
+        return binary_search(list[:mid], item)
+    else:
+        # since mid is checked and the start is
+        # inclusive, better to do mid + 1
+        return binary_search(list[mid:], item)
