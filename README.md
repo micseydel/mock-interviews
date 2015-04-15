@@ -3,7 +3,7 @@ Mock Interview Prep Material
 
 Notes:
   - Do not attribute a question to a specific company.
-  - If a code review is related to a question, try not to give it to someone who has done one or the other.
+  - If a code review is related to a question, try not to give it to someone who has done one or the other (e.g. someone who has recently done list implementation for a class or an interview question shouldn't do that for code review).
   - People should write *real code* and not pseudo-code. If their code is lacking, they need feedback. (Nice, polite feedback of course.)
     - Flip side, upon joining a company, be prepared for your co-workers or managers to constructively let you know you did not approach a problem correctly.  So try to get used to it.
   - "I don't know" is not the end of the world!! Especially not in mocks. Give as few hints as possible but definitely hint to move them forward.
